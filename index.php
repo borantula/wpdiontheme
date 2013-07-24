@@ -13,34 +13,32 @@
 
 get_header(); ?>
 
-	<div id="primary" class="content-area">
-		<div id="content" class="site-content" role="main">
+<?php
+/**
+ * MODEL AREA
+ * Put any query, variable, calcution etc. here.
+ * Unless you really have no other option, you can do within content part
+ */
 
-		<?php if ( have_posts() ) : ?>
 
-			<?php /* Start the Loop */ ?>
-			<?php while ( have_posts() ) : the_post(); ?>
+?>
 
-				<?php
-					/* Include the Post-Format-specific template for the content.
-					 * If you want to overload this in a child theme then include a file
-					 * called content-___.php (where ___ is the Post Format name) and that will be used instead.
-					 */
-					get_template_part( 'content', get_post_format() );
-				?>
+<?php
+	/**
+	* Main loop. If not altered its the latest posts.
+	* In CMS usage this generally changes with custom queries
+	*/
+?>
+<?php if ( have_posts() ) : ?>
 
-			<?php endwhile; ?>
+	<?php /* Start the Loop */ ?>
+	<?php while ( have_posts() ) : the_post(); ?>
 
-			<?php _s_content_nav( 'nav-below' ); ?>
+		
 
-		<?php else : ?>
+	<?php endwhile; ?>
 
-			<?php get_template_part( 'no-results', 'index' ); ?>
-
-		<?php endif; ?>
-
-		</div><!-- #content -->
-	</div><!-- #primary -->
+<?php endif; ?>
 
 <?php get_sidebar(); ?>
 <?php get_footer(); ?>

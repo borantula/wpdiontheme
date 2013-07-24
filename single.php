@@ -7,25 +7,31 @@
 
 get_header(); ?>
 
-	<div id="primary" class="content-area">
-		<div id="content" class="site-content" role="main">
+<?php
+/**
+ * MODEL AREA
+ * Put any query, variable, calcution etc. here.
+ * Unless you really have no other option, you can do within content part
+ */
 
-		<?php while ( have_posts() ) : the_post(); ?>
 
-			<?php get_template_part( 'content', 'single' ); ?>
+?>	
 
-			<?php _s_content_nav( 'nav-below' ); ?>
+<?php while ( have_posts() ) : the_post(); ?>
+	<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 
-			<?php
-				// If comments are open or we have at least one comment, load up the comment template
-				if ( comments_open() || '0' != get_comments_number() )
-					comments_template();
-			?>
 
-		<?php endwhile; // end of the loop. ?>
 
-		</div><!-- #content -->
-	</div><!-- #primary -->
+
+	<?php
+		// If comments are open or we have at least one comment, load up the comment template
+		if ( comments_open() || '0' != get_comments_number() )
+			comments_template();
+	?>
+	
+	</article>
+<?php endwhile; // end of the loop. ?>
+
 
 <?php get_sidebar(); ?>
 <?php get_footer(); ?>
