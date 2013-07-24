@@ -1,49 +1,5 @@
 [
     {
-        "name": "markjaquith/wp-tlc-transients",
-        "version": "dev-master",
-        "version_normalized": "9999999-dev",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/markjaquith/WP-TLC-Transients.git",
-            "reference": "1.0"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/markjaquith/WP-TLC-Transients/zipball/1.0",
-            "reference": "1.0",
-            "shasum": ""
-        },
-        "time": "2013-05-07 18:12:10",
-        "type": "library",
-        "installation-source": "source",
-        "autoload": {
-            "classmap": [
-                "class-tlc-transient.php",
-                "class-tlc-transient-update-server.php"
-            ],
-            "files": [
-                "functions.php"
-            ]
-        },
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "GPL-2.0+"
-        ],
-        "authors": [
-            {
-                "name": "Mark Jaquith",
-                "homepage": "http://markjaquith.com/"
-            }
-        ],
-        "description": "A WP transients interface with support for soft-expiration, background updating of the transients.",
-        "homepage": "https://github.com/markjaquith/WP-TLC-Transients",
-        "keywords": [
-            "cache",
-            "wordpress"
-        ]
-    },
-    {
         "name": "nesbot/carbon",
         "version": "1.2.0",
         "version_normalized": "1.2.0.0",

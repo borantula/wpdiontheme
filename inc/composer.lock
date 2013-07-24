@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "b1c18953b9d95ab8de7387750ae08100",
+    "hash": "2d4c62da6b4c368bf79c7e16d96c20c2",
     "packages": [
         {
             "name": "illuminate/container",
@@ -206,48 +206,6 @@
             "time": "2013-06-11 00:56:49"
         },
         {
-            "name": "markjaquith/wp-tlc-transients",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/markjaquith/WP-TLC-Transients.git",
-                "reference": "1.0"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/markjaquith/WP-TLC-Transients/zipball/1.0",
-                "reference": "1.0",
-                "shasum": ""
-            },
-            "type": "library",
-            "autoload": {
-                "classmap": [
-                    "class-tlc-transient.php",
-                    "class-tlc-transient-update-server.php"
-                ],
-                "files": [
-                    "functions.php"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "GPL-2.0+"
-            ],
-            "authors": [
-                {
-                    "name": "Mark Jaquith",
-                    "homepage": "http://markjaquith.com/"
-                }
-            ],
-            "description": "A WP transients interface with support for soft-expiration, background updating of the transients.",
-            "homepage": "https://github.com/markjaquith/WP-TLC-Transients",
-            "keywords": [
-                "cache",
-                "wordpress"
-            ],
-            "time": "2013-05-07 18:12:10"
-        },
-        {
             "name": "nesbot/carbon",
             "version": "1.2.0",
             "source": {
@@ -298,9 +256,9 @@
 
     ],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "markjaquith/wp-tlc-transients": 20
-    },
+    "stability-flags": [
+
+    ],
     "platform": [
 
     ],

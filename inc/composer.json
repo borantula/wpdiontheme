@@ -1,6 +1,5 @@
 {
     "require": {
-        "markjaquith/wp-tlc-transients": "dev-master",
         "illuminate/database": "*",
         "illuminate/container": "*"
 
