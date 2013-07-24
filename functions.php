@@ -15,13 +15,40 @@ if ( ! isset( $content_width ) )
 
 
 require DION_THEME_DIR.'/inc/vendor/autoload.php';
-	
+
+require DION_THEME_DIR.'/inc/Ajax.php';
+
+
 DionThemeSetup::getInstance();
 
-Dion\Ajax::hooks();
+$dionAjax = \Dion\Ajax::hooks();
+
+add_action('init',function(){
+
+	\Dion\Ajax::register('tester-event',function(){
+
+		$success = 'successful request';
+		$fail = 'failed request';
+		
 
 
+		update_option( 'dion-ajax-test', date('H:i:s') );
 
+		if($_POST['success'] == 'yes') {
+
+			wp_send_json_error($fail);
+		} else {
+			wp_send_json_success($fail);
+
+		}
+		
+	});
+});
+
+add_action('wp_footer',function()use($dionAjax){
+
+var_dump($dionAjax);
+});
 
 
 

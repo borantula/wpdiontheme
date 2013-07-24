@@ -27,7 +27,7 @@ class Ajax {
 		add_action( 'wp_enqueue_scripts', function(){
 			global $wp;
 
-
+			wp_enqueue_script('jquery');
 			wp_enqueue_script( 'ajax.js',get_template_directory_uri().'/js/ajax.js');
 
 
