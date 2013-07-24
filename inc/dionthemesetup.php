@@ -19,6 +19,9 @@ class DionThemeSetup {
 	private function __construct()
 	{
 
+		//check version first
+		$this->checkPhpVersion();
+
 		add_action('after_setup_theme',array($this,'themeSetup'));
 
 		// Load admin style sheet and JavaScript.
@@ -150,6 +153,25 @@ class DionThemeSetup {
 			'after_title'   => '</h1>',
 		) );
 	}
+
+	//it should be at least 5.3.7
+	function checkPhpVersion()
+	{
+		$version = explode('.', PHP_VERSION);
+
+		$message =  'Php version must be at least 5.3.7 for wpdiontheme to work. Please upgrade.';
+
+		if (strnatcmp(phpversion(),'5.3.7') >= 0) 
+	    { 
+	    	// do nothing
+	    } 
+	    else 
+	    { 
+			die($message); 
+	    }  
+	}
+
+	
 
 
 }

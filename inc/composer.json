@@ -6,10 +6,10 @@
     },
     "autoload": {
         "psr-0": { 
-            "DionThemeSetup": "" 
+            "DionThemeSetup": ""
         },
         "classmap": [
-            
+            "dion"
         ]
     }
 }

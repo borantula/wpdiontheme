@@ -18,6 +18,10 @@ require DION_THEME_DIR.'/inc/vendor/autoload.php';
 	
 DionThemeSetup::getInstance();
 
+Dion\Ajax::hooks();
+
+
+
 
 
 
