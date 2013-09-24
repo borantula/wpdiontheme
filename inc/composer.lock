@@ -7,17 +7,17 @@
     "packages": [
         {
             "name": "illuminate/container",
-            "version": "v4.0.5",
+            "version": "v4.0.7",
             "target-dir": "Illuminate/Container",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/container.git",
-                "reference": "v4.0.5"
+                "reference": "da34bc87ffba84ae1a466cfee78b0b18a9d15a3d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/container/zipball/v4.0.5",
-                "reference": "v4.0.5",
+                "url": "https://api.github.com/repos/illuminate/container/zipball/da34bc87ffba84ae1a466cfee78b0b18a9d15a3d",
+                "reference": "da34bc87ffba84ae1a466cfee78b0b18a9d15a3d",
                 "shasum": ""
             },
             "require": {
@@ -44,24 +44,26 @@
             "authors": [
                 {
                     "name": "Taylor Otwell",
-                    "email": "taylorotwell@gmail.com"
+                    "email": "taylorotwell@gmail.com",
+                    "homepage": "https://github.com/taylorotwell",
+                    "role": "Developer"
                 }
             ],
-            "time": "2013-05-28 00:50:14"
+            "time": "2013-07-31 14:49:48"
         },
         {
             "name": "illuminate/database",
-            "version": "v4.0.5",
+            "version": "v4.0.7",
             "target-dir": "Illuminate/Database",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/database.git",
-                "reference": "v4.0.5"
+                "reference": "afec05d1be04f1d7682ba4a39cbd36faa22f1ab1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/database/zipball/v4.0.5",
-                "reference": "v4.0.5",
+                "url": "https://api.github.com/repos/illuminate/database/zipball/afec05d1be04f1d7682ba4a39cbd36faa22f1ab1",
+                "reference": "afec05d1be04f1d7682ba4a39cbd36faa22f1ab1",
                 "shasum": ""
             },
             "require": {
@@ -98,7 +100,9 @@
             "authors": [
                 {
                     "name": "Taylor Otwell",
-                    "email": "taylorotwell@gmail.com"
+                    "email": "taylorotwell@gmail.com",
+                    "homepage": "https://github.com/taylorotwell",
+                    "role": "Developer"
                 }
             ],
             "keywords": [
@@ -107,21 +111,21 @@
                 "orm",
                 "sql"
             ],
-            "time": "2013-06-13 03:10:30"
+            "time": "2013-09-07 04:31:12"
         },
         {
             "name": "illuminate/events",
-            "version": "v4.0.5",
+            "version": "v4.0.7",
             "target-dir": "Illuminate/Events",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/events.git",
-                "reference": "v4.0.5"
+                "reference": "d3b84d3024f3671a33eb9388b3ff58e4b407c6ac"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/events/zipball/v4.0.5",
-                "reference": "v4.0.5",
+                "url": "https://api.github.com/repos/illuminate/events/zipball/d3b84d3024f3671a33eb9388b3ff58e4b407c6ac",
+                "reference": "d3b84d3024f3671a33eb9388b3ff58e4b407c6ac",
                 "shasum": ""
             },
             "require": {
@@ -151,24 +155,26 @@
             "authors": [
                 {
                     "name": "Taylor Otwell",
-                    "email": "taylorotwell@gmail.com"
+                    "email": "taylorotwell@gmail.com",
+                    "homepage": "https://github.com/taylorotwell",
+                    "role": "Developer"
                 }
             ],
-            "time": "2013-05-28 00:50:14"
+            "time": "2013-08-01 14:26:36"
         },
         {
             "name": "illuminate/support",
-            "version": "v4.0.5",
+            "version": "v4.0.7",
             "target-dir": "Illuminate/Support",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/support.git",
-                "reference": "v4.0.5"
+                "reference": "5ba934d9c27b456202f3ae495971e467fb9a3f73"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/support/zipball/v4.0.5",
-                "reference": "v4.0.5",
+                "url": "https://api.github.com/repos/illuminate/support/zipball/5ba934d9c27b456202f3ae495971e467fb9a3f73",
+                "reference": "5ba934d9c27b456202f3ae495971e467fb9a3f73",
                 "shasum": ""
             },
             "require": {
@@ -200,23 +206,25 @@
             "authors": [
                 {
                     "name": "Taylor Otwell",
-                    "email": "taylorotwell@gmail.com"
+                    "email": "taylorotwell@gmail.com",
+                    "homepage": "https://github.com/taylorotwell",
+                    "role": "Developer"
                 }
             ],
-            "time": "2013-06-11 00:56:49"
+            "time": "2013-08-27 16:09:54"
         },
         {
             "name": "nesbot/carbon",
-            "version": "1.2.0",
+            "version": "1.4.0",
             "source": {
                 "type": "git",
-                "url": "git://github.com/briannesbitt/Carbon.git",
-                "reference": "1.2.0"
+                "url": "https://github.com/briannesbitt/Carbon.git",
+                "reference": "06f0b8a99a90c5392ceccb09b75b74ff6c08ec07"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/briannesbitt/Carbon/zipball/1.2.0",
-                "reference": "1.2.0",
+                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/06f0b8a99a90c5392ceccb09b75b74ff6c08ec07",
+                "reference": "06f0b8a99a90c5392ceccb09b75b74ff6c08ec07",
                 "shasum": ""
             },
             "require": {
@@ -225,7 +233,7 @@
             "type": "library",
             "autoload": {
                 "psr-0": {
-                    "Carbon": "."
+                    "Carbon": "src"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -246,7 +254,7 @@
                 "datetime",
                 "time"
             ],
-            "time": "2012-10-14 17:41:18"
+            "time": "2013-09-09 02:39:19"
         }
     ],
     "packages-dev": [
