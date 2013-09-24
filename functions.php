@@ -12,13 +12,11 @@ define('DION_THEME_DIR',get_stylesheet_directory());
 if ( ! isset( $content_width ) )
 	$content_width = 640; /* pixels */
 
-
-
 require DION_THEME_DIR.'/inc/vendor/autoload.php';
 
 
-
-DionThemeSetup::getInstance();
+//setting up the theme
+Dion\ThemeSetup::getInstance();
 
 $dionAjax = \Dion\Ajax::hooks();
 

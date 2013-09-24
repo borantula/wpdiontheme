@@ -1,6 +1,6 @@
 /* not intended for direct use */
 
-function amadeusAjaxUrl(event)
+function dionAjaxUrl(event)
 {
 	return siteAjax.ajaxUrl+'?action='+siteAjax.action+'&amadeus_event='+event;
 }

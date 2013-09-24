@@ -1,12 +1,13 @@
 <?php
 
+namespace Dion;
 /**
  * Includes standart theme functions, theme styles, scripts for both 
  * frontend and backend
  *
  * @package wpdion
  */
-class DionThemeSetup {
+class ThemeSetup {
 
 
 	public static $instance;
