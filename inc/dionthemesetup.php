@@ -18,7 +18,6 @@ class DionThemeSetup {
 	 */
 	private function __construct()
 	{
-
 		//check version first
 		$this->checkPhpVersion();
 
